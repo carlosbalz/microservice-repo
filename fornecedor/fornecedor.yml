@@ -1,5 +1,7 @@
 spring:
   jpa:
+    hibernate:
+      ddl-auto: create
     show-sql: true
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
